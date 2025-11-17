@@ -10,7 +10,7 @@ on:
         required: true
       logLevel:
         description: 'Log level'
-        default: 'warning' 
+        default: 'warning'
         type: choice
         options:
           - info
