@@ -1,5 +1,7 @@
 name: My First Workflow
 on:
+  repository_dispatch:
+    types: [event1, event2]
   push:
     branches: 
       - main
